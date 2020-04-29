@@ -1,0 +1,161 @@
+/*General*/
+
+body {
+  font-family: 'helvetica', 'sans-serif';
+  margin: 0;
+}
+
+h1, h4, h5 {
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+
+
+h1 {
+  font-size: 2.5em;
+}
+
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, label, strong {
+  line-height: 2;
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+
+
+/* Header */
+
+header {
+  background-color: #131313;
+  padding: 20px 0;
+  position: relative;
+  border-bottom: 1px solid #ffaa00;
+}
+
+.bars-menu {
+  background-color: transparent;
+  border: 1px solid #33ffff;
+  padding: 3px 5px;
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.bars-menu .strip {
+  display: block;
+  height: 1px;
+  background-color: #33ffff;
+  margin: 4px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 18px;
+}
+
+nav ul li a {
+  color: #eee;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ffaa00;
+}
+
+
+/*Game Boxes*/
+
+#games h1
+{
+  text-align: center;
+  margin-bottom: 1.65em;
+}
+
+#games .box
+{
+  flex-basis: 23%;
+  position: relative;
+  text-align: center;
+  float: left;
+  left: 5%;
+  width: 30%;
+  
+}
+
+#games .box .gamesimg
+{
+  margin-bottom: 0.75em;
+  overflow: hidden;
+}
+
+#games .box .gamesimg img
+{
+  width: 45%;
+  height: 20%
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+  background-color: #252525;
+  padding: 25px 0 20px;
+  margin-top: -100px;
+  clear: both;
+}
+
+footer small {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+footer small a {
+  color: #007BDC;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+footer ul li a {
+  color: #ddd;
+  font-size: 0.8em;
+}
